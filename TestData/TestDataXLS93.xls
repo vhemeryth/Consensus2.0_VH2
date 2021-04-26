@@ -1,0 +1,7 @@
+CP-CONSENSUS	TestClasses	TestCases	${username}	${password}	${error_msg}
+x	LoginAccessTest	LoginFailedTestUsernameInvalido	RoyCerpa DDT	baduka1190	Usuario no existe
+x	LoginAccessTest	LoginFailedTestPasswordInvalido	PPAA	Password123 DDT	Acceso denegado
+x	LoginAccessTest	LoginFailedTestUsernameVacio	PPAA	Test	Acceso denegado
+x	LoginAccessTest	LoginFailedTestPasswordVacio	x	x	Acceso denegado
+x	LoginAccessTest	LoginFailedTestUserAndPassVacio			Acceso denegado
+x	LoginAccessTest	LoginAccessTestCorrecto	admin	baduka1190	
